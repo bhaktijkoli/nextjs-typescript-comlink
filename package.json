@@ -1,0 +1,30 @@
+{
+  "name": "nextjs-typescript-comlink",
+  "version": "1.0.0",
+  "description": "Simple sample for Next.js + TypeScript + Web Worker + Comlink",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bhaktijkoli/nextjs-typescript-comlink.git"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "comlink": "^4.3.1",
+    "next": "^12.0.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "worker-plugin": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.14",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "comlink-loader": "^2.0.0",
+    "typescript": "^4.5.5"
+  },
+  "license": "MIT"
+}
